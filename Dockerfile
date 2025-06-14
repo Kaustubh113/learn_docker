@@ -11,7 +11,6 @@ RUN npm install
 # Copy the code contends
 COPY . .
 
-EXPOSE 3000
 
 # Run a command to start the application
 CMD ["npm", "start"]
